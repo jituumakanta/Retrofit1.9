@@ -33,11 +33,13 @@ public class MyIntentService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        try {
+       /* try {
             praseData();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
+
+        insertUser_india("cc","cc");
     }
 
 
